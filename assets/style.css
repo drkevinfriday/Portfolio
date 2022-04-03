@@ -1,0 +1,362 @@
+:root{
+    --primary-color:#e7c608;
+    --secondary-color:#367412;
+    --tertiary-color:#011518;
+  
+    --white-color:rgba(105, 105, 98, 0.601);
+       
+      
+  
+  
+  }
+  body{
+    background-color:var(--tertiary-color-color);
+    font-family:'Raleway';
+    color:var(--tertiary-color-color)
+  }
+/* Header styling */
+header {
+    display:flex;
+    position: sticky; 
+    justify-content: space-around;
+    padding: 20px;
+    
+    flex-direction: column;
+    width: 100%;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+     
+}
+
+/* Nav styling */
+header nav ul {  
+    display:flex;  
+    align-items: space-around;
+    list-style: none;
+    width: 100%;
+    
+    
+  
+  }
+/* List styling */
+header nav ul li {
+    padding: 20px  30px;
+    margin:30px auto;
+  
+
+    
+  }
+/* List link styling */
+header nav ul li a {
+
+
+text-decoration: none;
+font-size: 50px;
+padding: 20px;
+border-radius: 20px;
+text-decoration: none;
+color:#367412;
+}       
+header nav ul li a:hover{
+
+    text-shadow:  0 0 10px rgba(0, 0, 0, 1);
+    color:black;
+    /* background:var(--secondary-color);  */
+}
+
+/* Footer styling */
+
+footer{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+.hero{
+    
+    padding: 30px;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+
+/* Title styling */
+.title {
+    
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    font-stretch: expanded;
+    margin: 10px;
+    text-align: center;
+    text-shadow:  0 0 10px rgba(143, 187, 113, 0.5);    
+}
+
+
+
+
+
+
+
+ /* hero styling */
+.hero{
+    display:flex; 
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+    padding:30px 30px;
+}
+/* picture styling */
+.profile {
+    max-width: 400px;
+    opacity: 75%;
+    position: relative;
+    margin: 20px 20px;
+    border: solid var(--tertiary-color) 2px;
+  
+
+}
+/* .leaf{
+    position: absolute;
+    border: red solid 3px;
+    bottom: -10%;
+    left:40%;   
+} */
+
+/* experince styling */
+.info{
+    /* margin: 50px;
+    padding: 30px; */
+    line-height: 1.7;
+}
+/*  */
+/* Filler styling */
+.filler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px 0 25px 0;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    
+}
+
+
+/* Filler dot elements size */
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    margin: 20px;
+    justify-content: center;
+    
+   
+  }
+  .section-title{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    /* border-bottom: 3px solid var(--secondary-color); */
+   
+  }
+ 
+ 
+/* Card styling */
+  .projects {
+    width:100%;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+    
+        
+       
+    }
+    .projectCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px;
+    }
+    /*  */
+    .project-photo1{
+        flex:1;
+        filter: grayscale();
+        border: solid var(--tertiary-color 2px);
+        min-width: 300px;
+        min-height: 300px;
+        border: solid var(--tertiary-color) 10px;
+        
+
+    }
+    .project-photo2, .project-photo3{
+        flex:2;
+        filter: grayscale();
+        border: solid var(--tertiary-color 2px);
+        height: 200px;
+        width: 250px;
+        border: solid var(--tertiary-color) 10px;
+       
+        
+
+    }
+    /* project card hover state */
+    .project-photo1:hover, .project-photo2:hover, .project-photo3:hover{
+        filter: none; 
+    }
+    /*  */
+    .project-name {
+        text-align: center;
+        text-decoration: none;
+        opacity: 70%;
+        padding: 10px;
+    }
+
+    .connect{
+        background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+  
+    
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .overlay{
+    background-color: rgba(198, 206, 207, 0.3);
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+    }
+
+    .text-wrap{
+    background-color:var(--tertiary-color);
+    display: flex;
+    width: 140px;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 20px;
+    padding: 5px 5px;
+    color: gray;
+}
+    
+/* Style all font awesome icons */
+.fa {
+    
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* connect link setting */
+  .fa-facebook ,.fa-linkedin, .fa-github, .fa-instagram{
+    background-color: var(--tertiary-color);
+    
+    color: white;
+  }
+
+  
+
+   
+
+.links ul{
+    display:flex;  
+    align-items: space-around;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 980px) {
+
+        *{
+            align-items: center;
+        }
+        header{
+          padding-bottom: 0;
+          align-items: center;
+          
+          /* position: relative; */
+        }
+        .hero {
+            background-image: none;
+        }
+        header nav ul{
+            flex-direction: column;
+        }
+        .projectCards{
+            flex-direction: column;
+        }
+        header h1{
+          width: 100%;
+          text-align: center;
+        }
+    }
+    @media screen and (max-width: 545px) {
+
+        header{
+          padding-bottom: 0;
+          justify-content: center;
+          /* position: relative; */
+          
+         
+        }
+        header nav ul{
+            flex-direction: column;
+        }
+        header h1{
+          width: 100%;
+          text-align: center;
+        }
+        .title{
+            font-size: 70px;
+        }
+    }
